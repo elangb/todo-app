@@ -1,3 +1,13 @@
+# 📝 Todo App
+## 📝 Todo App
+
+- Todo App Using React
+- Developed first with the Dekstop First methodology, then for Mobile.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Uses the [React](https://reactjs.org/) framework.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
