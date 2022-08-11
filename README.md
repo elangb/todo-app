@@ -2,7 +2,7 @@
 ## 📝 Todo App Using useState
 
 - Todo App Using React
-- Developed first with the Dekstop First methodology, then for Mobile.
+- Developed first with the Mobile First methodology, then for Dekstop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 - Uses the [React](https://reactjs.org/) framework.
 
