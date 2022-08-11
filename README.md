@@ -1,5 +1,5 @@
-# 📝 Todo App
-## 📝 Todo App
+# 📝 Todo App Using useState
+## 📝 Todo App Using useState
 
 - Todo App Using React
 - Developed first with the Dekstop First methodology, then for Mobile.
