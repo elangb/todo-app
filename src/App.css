@@ -122,7 +122,7 @@
 }
 
 .list{
-  width: 220px;
+  width: 120px;
   background-color: var(--second-color);
   border: none;
   color: black  ;
@@ -158,47 +158,3 @@ button:focus{
   }
 }
 
-/* For large devices */
-@media screen and (min-width: 1024px) {
-  .home__container {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    column-gap: 2rem;
-  }
-  .home__data {
-    text-align: initial;
-  }
-  .home__img img {
-    width: 400px;
-  }
-  .home__shadow {
-    width: 250px;
-    height: 40px;
-  }
-}
-
-@media screen and (min-width: 1048px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
-@media screen and (min-width: 2048px) {
-  body {
-    zoom: 1.7;
-  }
-
-  .home {
-    height: initial;
-    row-gap: 4rem;
-  }
-}
-
-/* For 4K resolutions (3840 x 2160, 4096 x 2160) */
-@media screen and (min-width: 3840px) {
-  body {
-    zoom: 3.1;
-  }
-}
