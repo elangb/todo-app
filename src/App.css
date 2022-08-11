@@ -103,12 +103,12 @@
 }
 
 .button-edit{
-  color: #e2d029;
+  color: lightseagreen;
   margin-right: 10px;
 }
 
 .button-delete{
-  color: lightseagreen;
+  color: #898AA6;
 }
 
 .complete{
@@ -156,5 +156,23 @@ button:focus{
     flex-direction: row;
     column-gap: 3.5rem;
   }
+}
+
+.footer{
+  background-color: var(--first-color);
+  width: 100%;
+  font-family: poppins;
+  font-size: .7rem;
+  text-align: center;
+  height: 50px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 

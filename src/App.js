@@ -43,6 +43,11 @@ const App = () => {
             setEditTodo={setEditTodo}
           />
         </div>
+      <footer className="footer">
+        <p>
+          Todo App Using useState Hooks & React Hooks 
+        </p>
+      </footer>
       </div>
     </div>
   );
