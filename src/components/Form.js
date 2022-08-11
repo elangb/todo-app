@@ -35,7 +35,7 @@ export const Form = ({input, setInput, todos, setTodos, editTodo, setEditTodo}) 
     <form onSubmit={onFormSubmit}>
       {/* input untuk menambahkan todo baru */}
         <input type="text" placeholder='Enter a Todo...' className='task-input' value={input} required onChange={onInputChange} />
-        <button className='button-add' type='submit'>Add</button>
+        <button className='button-add' type='submit'>{ editTodo?"Ok": "Add"}</button>
     </form>
   )
 } 
