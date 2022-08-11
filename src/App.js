@@ -9,10 +9,6 @@ const App = () => {
   const [todos, setTodos] = useState([]);
   const [editTodo, setEditTodo] = useState(null);
 
-  // useEffect(() => {
-  //   console.log(todos);
-  // }, [todos]);
-
   return (
     <div className="container">
       <div className="app_wrapper">

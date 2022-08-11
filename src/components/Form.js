@@ -1,4 +1,5 @@
 import React from 'react'
+// uuidv4 untuk mengambil id dari todo yang sudah ada
 import { v4 as uuidv4 } from 'uuid';
 
 export const Form = ({input, setInput, todos, setTodos, editTodo, setEditTodo}) => {
@@ -30,7 +31,9 @@ export const Form = ({input, setInput, todos, setTodos, editTodo, setEditTodo}) 
 
   // form submit untuk menambahkan todo baru dan mengupdate todo yang sudah ada
   return (
+    // form untuk menambahkan todo baru
     <form onSubmit={onFormSubmit}>
+      {/* input untuk menambahkan todo baru */}
         <input type="text" placeholder='Enter a Todo...' className='task-input' value={input} required onChange={onInputChange} />
         <button className='button-add' type='submit'>Add</button>
     </form>
