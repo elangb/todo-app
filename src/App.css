@@ -15,7 +15,7 @@
 }
 
 .container{
-  background: var(--first-color);
+  background: url(/Circuit\ Board.svg);
   width: 100%;
   min-height: 100vh;
   display: flex;
